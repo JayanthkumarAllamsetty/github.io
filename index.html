@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link  type="text/css" rel="stylesheet" href="index.css">
+    <script>
+        window.addEventListener("DOMContentLoaded", function() {
+            var resumeLink = document.getElementById("resumeLink");
+            var tableRows = document.querySelectorAll("tbody tr");
+            var rowspanValue = tableRows.length;
+            resumeLink.setAttribute("rowspan", rowspanValue);
+        });
+    </script>
 </head>
 <body>
     <table>
@@ -18,7 +26,7 @@
                 <th>LINK</th>
                 <th>My Resume</th>
             </tr>
-    </thead>
+        </thead>
         <tbody>
             <tr>
                 <td>1</td>
@@ -26,6 +34,7 @@
                 <td>Daily Task Page</td>
                 <td>Ensure that every day this task page is updated and committed</td>
                 <td><a href="https://jayanthkumarallamsetty.github.io/github.io/">My Page</a></td>
+                <td rowspan="1" id="resumeLink"><a href="/github.io/resume.html">My Resume</a></td>
             </tr>
             <tr>
                 <td>2</td>
@@ -40,9 +49,6 @@
                     <a href="https://github.com/JayanthkumarAllamsetty/github.io/blob/main/25th%20Problems%20Solved/CaseInsensitivePalindrome.cpp">Case Insensitive Palindrome</a><br><br>
                     <a href="https://github.com/JayanthkumarAllamsetty/github.io/blob/main/25th%20Problems%20Solved/CheckAnagrams.cpp">Check Anagrams</a><br><br>
                     <a href="https://github.com/JayanthkumarAllamsetty/github.io/blob/main/25th%20Problems%20Solved/TwoSum.cpp">Two Sum</a><br><br>
-                </td>
-                <td>
-                    <a href="/github.io/resume.html">My Resume</a>
                 </td>
             </tr>
             <tr>
@@ -199,17 +205,16 @@
                     
                 </td>
                 <td>
-                    <a  href="https://www.mentorpick.com/code?cid=1ff23360-aee2-4cac-b120-9e1f9df192b6&cslug=klu-y20-elite-cohort-1&pid=2e147da2-2adb-4711-98ac-09c8abdb536f&pslug=bzMinCoinsToMakeChange&courseId=707da31b-c631-42e7-b3fc-61b8e33cc62a&sectionId=null">Min coins To Make Change </a>
+                    <a  href="https://www.mentorpick.com/code?cid=1ff23360-aee2-4cac-b120-9e1f9df192b6&cslug=klu-y20-elite-cohort-1&pid=2e147da2-2adb-4711-98ac-09c8abdb536f&pslug=bzMinCoinsToMakeChange&courseId=707da31b-c631-42e7-b3fc-61b8e33cc62a&sectionId=null">Min coins To Make Change </a><br><br>
                     <a href="https://www.mentorpick.com/code?cid=1ff23360-aee2-4cac-b120-9e1f9df192b6&cslug=klu-y20-elite-cohort-1&pid=117b4835-85d3-45cd-a9d4-676a472de788&pslug=bzLongestIncreasingSubsequenceLength&courseId=707da31b-c631-42e7-b3fc-61b8e33cc62a&sectionId=null"> bzLongestIncreasingSubsequenceLength</a><br><br>
                     <a href="https://www.mentorpick.com/code?cid=1ff23360-aee2-4cac-b120-9e1f9df192b6&cslug=klu-y20-elite-cohort-1&pid=1fa579b9-1ac4-4780-a169-e5289167496d&pslug=bz-jump-game&courseId=707da31b-c631-42e7-b3fc-61b8e33cc62a&sectionId=null"> Jump Game</a><br><br>
                     <a href="https://www.mentorpick.com/code?cid=1ff23360-aee2-4cac-b120-9e1f9df192b6&cslug=klu-y20-elite-cohort-1&pid=c66103e2-531c-4b08-8f5d-303710b5debc&pslug=bz-isbst&courseId=707da31b-c631-42e7-b3fc-61b8e33cc62a&sectionId=null">IsBst</a><br><br>
-                    <a href="https://www.mentorpick.com/code?cid=1ff23360-aee2-4cac-b120-9e1f9df192b6&cslug=klu-y20-elite-cohort-1&pid=7bde8032-33bf-4558-bedc-8d11ebd4e18a&pslug=bz-longest-consecutive-sequence&courseId=707da31b-c631-42e7-b3fc-61b8e33cc62a&sectionId=null">bz-longest-consecutive-sequence</a><br
+                    <a href="https://www.mentorpick.com/code?cid=1ff23360-aee2-4cac-b120-9e1f9df192b6&cslug=klu-y20-elite-cohort-1&pid=7bde8032-33bf-4558-bedc-8d11ebd4e18a&pslug=bz-longest-consecutive-sequence&courseId=707da31b-c631-42e7-b3fc-61b8e33cc62a&sectionId=null">bz-longest-consecutive-sequence</a><br>
                 </td>
             </tr>
           
 
         </tbody>
     </table>
-    
 </body>
 </html>
